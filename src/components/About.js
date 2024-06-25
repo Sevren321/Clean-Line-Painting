@@ -27,7 +27,7 @@ export default function About() {
           alt="logo"
         />
         <Image
-          className=" w-[570px] h-[250px] object-cover  "
+          className=" w-[570px] h-[250px] object-cover ml-60 flex"
           src="/AboutImages/HouseFront.jpg"
           width={1000}
           height={500}
@@ -61,8 +61,8 @@ export default function About() {
 
       <div className="grid grid-cols-3">
         <div className=" text-xl p-5 text-center place-content-center">
-          "From the Heartland of British Columbia Canada, we strive to bring the
-          look and feel of nature's beauty to your home."{" "}
+        &ldquo;From the Heartland of British Columbia Canada, we strive to bring the
+          look and feel of nature&apos;s beauty to your home.&ldquo;
         </div>
 
         <div className="relative col-span-2">
