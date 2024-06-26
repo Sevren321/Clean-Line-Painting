@@ -18,7 +18,7 @@ export default function About() {
         lines and the flexibility for you to express your creative side.
       </div>
 
-      <div className="flex mb-20">
+      <div className="flex mb-20 max-w-full flex-wrap ">
         <Image
           className=" w-[1200px] h-[250px] object-cover  "
           src="/AboutImages/Stairwell.jpg"
@@ -27,7 +27,7 @@ export default function About() {
           alt="logo"
         />
         <Image
-          className=" w-[570px] h-[250px] object-cover ml-60 flex"
+          className=" w-[570px] h-[250px] object-cover  flex"
           src="/AboutImages/HouseFront.jpg"
           width={1000}
           height={500}
@@ -35,7 +35,7 @@ export default function About() {
         />
       </div>
 
-      <div className="flex justify-between mb-20">
+      <div className=" justify-between mb-20 max-w-full flex flex-wrap">
         <Image
           className=" w-[500px] h-[500px] object-cover  "
           src="/AboutImages/Entrance.jpg"
@@ -59,33 +59,30 @@ export default function About() {
         />
       </div>
 
-      <div className="grid grid-cols-3">
-        <div className=" text-xl p-5 text-center place-content-center">
-        &ldquo;From the Heartland of British Columbia Canada, we strive to bring the
-          look and feel of nature&apos;s beauty to your home.&ldquo;
+      <div className="grid grid-cols-3 grid-rows-1">
+        <div className=" text-xl p-5 text-center place-content-center col-span-1 row-span-1">
+          &ldquo;From the Heartland of British Columbia Canada, we strive to
+          bring the look and feel of nature&apos;s beauty to your home.&ldquo;
         </div>
 
-        <div className="relative col-span-2">
+        <div className="grid col-span-2 row-span-1 items-center">
           <Image
-            className=" w-full h-[550px] object-cover "
+            className=" w-full h-[550px] object-cover row-start-1 row-end-1 col-start-1 col-end-1"
             src="/AboutImages/Canada.jpg"
             width={1000}
             height={500}
             alt="logo"
           />
-          <div className="absolute top-[150px] left-[50px]">
-            <div className="flex-col relative">
-              <Image
-                className=" w-[250px] h-[250px] object-cover  rounded-full "
-                src="/AboutImages/me.jpg"
-                width={1000}
-                height={500}
-                alt="logo"
-              />
-
-              <div className="bg-slate-900 text-white text-sm top-[200px] mx-auto rounded-full  p-2 px-4 text-center absolute">
-                Sevren Roberge<br></br>Founder
-              </div>
+          <div className="relative row-start-1 row-end-1 col-start-1 col-end-1 m-10">
+            <Image
+              className=" w-[250px] h-[250px] object-cover  rounded-full  "
+              src="/AboutImages/me.jpg"
+              width={1000}
+              height={500}
+              alt="logo"
+            />
+            <div className="bg-slate-900 text-white text-sm bottom-0 rounded-full absolute p-2 px-4 text-center ">
+              Sevren Roberge<br></br>Founder
             </div>
           </div>
         </div>

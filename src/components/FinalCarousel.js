@@ -109,7 +109,7 @@ export default function FinalCarousel() {
           />
         </div>
       </div>
-      <div className=" p-2 bg-white/75 w-[500px] h-[500px] rounded-lg col-start-1 col-end-1 row-start-1 row-end-1 z-10">
+      <div className=" p-2 bg-white/75  rounded-lg col-start-1 col-end-1 row-start-1 row-end-1 z-10 m-w-full">
         <div className=" flex justify-center text-center text-4xl p-10 mt-5">
           Expert
           <br /> Painting
