@@ -2,17 +2,17 @@ import React from "react";
 
 export default function Services() {
   return (
-    <div className="bg-slate-800 p-20">
-      <div className="flex justify-center text-4xl mb-20 font-bold text-white">
+    <div className="bg-primary p-20">
+      <div className="flex justify-center text-3xl mb-16 font-bold text-white">
         <u>Our Services</u>
       </div>
 
-      <div className="grid grid-cols-2 justify-items-center">
+      <div className="grid grid-cols-2 justify-items-center gap-x-10">
         <div className="">
-          <div className="text-white border-b text-2xl font-bold mb-4">
+          <div className="text-white border-b text-center text-xl font-bold mb-4">
             Pressure Washing / Cleaning
           </div>
-          <div className="text-white flex justify-center">
+          <div className="text-white text-sm flex justify-center">
             <ul className="list-disc">
               <li>Asphalt and Clay Shingles</li>
               <li>Moss and Algae Removal</li>
@@ -25,11 +25,11 @@ export default function Services() {
         </div>
 
         <div className="">
-          <div className="text-white border-b text-2xl font-bold mb-4">
+          <div className="text-white border-b text-xl text-center font-bold mb-4">
             Interior / Exterior Painting
           </div>
 
-          <div className="text-white flex justify-center">
+          <div className="text-white flex text-sm justify-center">
             <ul className="list-disc">
               <li>Priming</li>
               <li>Stucco and Siding</li>

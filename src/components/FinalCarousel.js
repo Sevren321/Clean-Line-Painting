@@ -43,11 +43,11 @@ export default function FinalCarousel() {
     <div className="main grid grid-cols-1 grid-rows-1 place-items-center">
       <div
         ref={sliderRef}
-        className="keen-slider col-start-1 col-end-1 row-start-1 row-end-1"
+        className="keen-slider col-start-1 col-end-1 row-start-1 row-end-1 max-h-[800px]"
       >
         <div className="keen-slider__slide">
           <Image
-            className=" w-full h-[880px]"
+            className=" w-full h-full"
             src="/CarouselImages/1.jpg"
             width={1000}
             height={500}
@@ -56,7 +56,7 @@ export default function FinalCarousel() {
         </div>
         <div className="keen-slider__slide">
           <Image
-            className=" w-full h-[880px]  "
+            className=" w-full h-full  "
             src="/CarouselImages/2.jpg"
             width={1000}
             height={500}
@@ -65,7 +65,7 @@ export default function FinalCarousel() {
         </div>
         <div className="keen-slider__slide">
           <Image
-            className=" w-full h-[880px]"
+            className=" w-full h-full"
             src="/CarouselImages/3.jpg"
             width={1000}
             height={500}
@@ -74,7 +74,7 @@ export default function FinalCarousel() {
         </div>
         <div className="keen-slider__slide">
           <Image
-            className=" w-full h-[880px]  "
+            className=" w-full h-full  "
             src="/CarouselImages/4.jpg"
             width={1000}
             height={500}
@@ -83,7 +83,7 @@ export default function FinalCarousel() {
         </div>
         <div className="keen-slider__slide">
           <Image
-            className=" w-full h-[880px]  "
+            className=" w-full h-full  "
             src="/CarouselImages/5.png"
             width={1000}
             height={500}
@@ -92,7 +92,7 @@ export default function FinalCarousel() {
         </div>
         <div className="keen-slider__slide">
           <Image
-            className=" w-full h-[880px]  "
+            className=" w-full h-full  "
             src="/CarouselImages/6.jpg"
             width={1000}
             height={500}
@@ -101,7 +101,7 @@ export default function FinalCarousel() {
         </div>
         <div className="keen-slider__slide">
           <Image
-            className=" w-full h-[880px] "
+            className=" w-full h-full "
             src="/CarouselImages/7.jpg"
             width={1000}
             height={500}
@@ -109,11 +109,11 @@ export default function FinalCarousel() {
           />
         </div>
       </div>
-      <div className=" p-2 bg-white/75  rounded-lg col-start-1 col-end-1 row-start-1 row-end-1 z-10 m-w-full">
-        <div className=" flex justify-center text-center text-4xl p-10 mt-5">
+      <div className=" p-2 bg-text/75  rounded-lg col-start-1 col-end-1 row-start-1 row-end-1 z-10 max-w-full">
+        <div className=" flex justify-center text-center text-xl p-10 mb-">
           Expert
-          <br /> Painting
-          <br /> Solutions
+           Painting
+          Solutions
         </div>
         <div className="flex justify-center">
           <button className="bg-blue-400">Get In Touch</button>

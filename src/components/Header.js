@@ -5,14 +5,15 @@ import Image from "next/image";
 export default function Header() {
   return (
     <div>
-      <div className="bg-orange-600 text-white text-xl flex justify-between">
+      <div className="bg-alt text-text text-center text-md flex ">
         <div className="p-2  flex ml-20">
-          Call Us Today! &nbsp; &nbsp; 805-406-9107
+          Call Us Today!
         </div>
+        <div className="items-center flex">805-406-9107</div>
         <div className="flex items-center mr-20 p-2">*Free Estimates*</div>
       </div>
 
-      <div className="bg-sky-950 text-orange-600">
+      <div className="bg-base text-alt">
         <div className="flex justify-center p-4">
           <Image
             className=" object-cover rounded "
@@ -23,7 +24,7 @@ export default function Header() {
           />
         </div>
 
-        <div className="justify-center text-5xl font-extrabold p-5 flex">
+        <div className="justify-center text-4xl font-extrabold text-center p-5 flex">
           CLEAN LINE PAINTING
         </div>
         <div>

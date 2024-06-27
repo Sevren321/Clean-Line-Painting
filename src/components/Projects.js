@@ -48,7 +48,7 @@ export default function Projects() {
 
   return (
     <div className="bg-sky-950 p-20">
-      <div className="text-4xl flex font-bold mb-20 justify-center text-white">
+      <div className="text-3xl flex font-bold mb-16 justify-center text-white">
         <u>Projects</u>
       </div>
 
