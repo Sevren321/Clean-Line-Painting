@@ -110,13 +110,11 @@ export default function FinalCarousel() {
         </div>
       </div>
       <div className=" p-2 bg-text/75  rounded-lg col-start-1 col-end-1 row-start-1 row-end-1 z-10 max-w-full">
-        <div className=" flex justify-center text-center text-xl p-10 mb-">
-          Expert
-           Painting
-          Solutions
+        <div className=" flex justify-center wrap text-center text-md p-10 min-h-[200px]">
+          Expert Painting Solution You Can Count On. 
         </div>
-        <div className="flex justify-center">
-          <button className="bg-blue-400">Get In Touch</button>
+        <div className="flex justify-center pb-3">
+          <button className="bg-base text-white py-2  px-3 rounded-full ">Get In Touch</button>
         </div>
       </div>
     </div>

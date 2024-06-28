@@ -18,7 +18,6 @@ export default function Home() {
       <Services />
       <Projects />
       <ContactForm />
-
       <Footer />
     </div>
   );
