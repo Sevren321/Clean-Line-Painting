@@ -54,8 +54,8 @@ export default function Header() {
             <ExportedImage
               className="m-5 object-cover rounded min-h-[50px] min-w-[50px] "
               src="/CLPLogoWhite1.png"
-              width={150}
-              height={150}
+              width={130}
+              height={130}
               alt="logo"
             />
           </div>

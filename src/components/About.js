@@ -13,7 +13,7 @@ export default function About() {
 
       <div className="text-lg mb-20">
         It is our mission to leave your home looking better than it has ever
-        been. At Clean Line Painting we strive for perfection in every project,
+        been before. At Clean Line Painting we strive for perfection in every project,
         hence Clean Line. Let me ask, have you ever hired painters and they just
         take forever? Or they get the job done fairly quick but their cut lines
         are just not right, god forbid any client requests contrasting colors.

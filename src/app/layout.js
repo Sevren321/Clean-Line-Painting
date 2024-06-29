@@ -1,7 +1,7 @@
-import { Roboto } from "next/font/google";
+import { Questrial } from "next/font/google";
 import "./globals.css";
 
-const roboto = Roboto({ weight: "500", subsets: ["latin"] });
+const exo = Questrial({ weight: "400", subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
           referrerPolicy="no-referrer"
         />
       </head>
-      <body className={roboto.className}>{children}</body>
+      <body className={exo.className}>{children}</body>
     </html>
   );
 }
