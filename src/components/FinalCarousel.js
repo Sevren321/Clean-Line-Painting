@@ -1,7 +1,10 @@
 import React from "react";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react";
+import localFont from "next/font/local";
+
+const myFont = localFont({src: "../../public/Fonts/Cinzel_Decorative/CinzelDecorative-Bold.ttf"})
 
 export default function FinalCarousel() {
   const [sliderRef] = useKeenSlider(
@@ -46,7 +49,7 @@ export default function FinalCarousel() {
         className="keen-slider col-start-1 col-end-1 row-start-1 row-end-1 max-h-[800px]"
       >
         <div className="keen-slider__slide">
-          <Image
+          <ExportedImage
             className=" w-full h-full"
             src="/CarouselImages/1.jpg"
             width={1000}
@@ -55,7 +58,7 @@ export default function FinalCarousel() {
           />
         </div>
         <div className="keen-slider__slide">
-          <Image
+          <ExportedImage
             className=" w-full h-full  "
             src="/CarouselImages/2.jpg"
             width={1000}
@@ -64,7 +67,7 @@ export default function FinalCarousel() {
           />
         </div>
         <div className="keen-slider__slide">
-          <Image
+          <ExportedImage
             className=" w-full h-full"
             src="/CarouselImages/3.jpg"
             width={1000}
@@ -73,7 +76,7 @@ export default function FinalCarousel() {
           />
         </div>
         <div className="keen-slider__slide">
-          <Image
+          <ExportedImage
             className=" w-full h-full  "
             src="/CarouselImages/4.jpg"
             width={1000}
@@ -82,7 +85,7 @@ export default function FinalCarousel() {
           />
         </div>
         <div className="keen-slider__slide">
-          <Image
+          <ExportedImage
             className=" w-full h-full  "
             src="/CarouselImages/5.png"
             width={1000}
@@ -91,7 +94,7 @@ export default function FinalCarousel() {
           />
         </div>
         <div className="keen-slider__slide">
-          <Image
+          <ExportedImage
             className=" w-full h-full  "
             src="/CarouselImages/6.jpg"
             width={1000}
@@ -100,7 +103,7 @@ export default function FinalCarousel() {
           />
         </div>
         <div className="keen-slider__slide">
-          <Image
+          <ExportedImage
             className=" w-full h-full "
             src="/CarouselImages/7.jpg"
             width={1000}
@@ -109,12 +112,12 @@ export default function FinalCarousel() {
           />
         </div>
       </div>
-      <div className=" p-2 bg-text/75  rounded-lg col-start-1 col-end-1 row-start-1 row-end-1 z-10 max-w-full">
-        <div className=" flex justify-center wrap text-center text-md p-10 min-h-[200px]">
-          Expert Painting Solution You Can Count On. 
+      <div className=" w-1/2 h-1/2 bg-text/75  rounded-lg col-start-1 col-end-1 row-start-1 row-end-1 z-10 ">
+        <div style={myFont.style} className=" flex justify-center wrap text-center text-md  ">
+          High-End Custom Home Finishing for over 35 years 
         </div>
-        <div className="flex justify-center pb-3">
-          <button className="bg-base text-white py-2  px-3 rounded-full ">Get In Touch</button>
+        <div className="flex justify-center ">
+          <a href="#Contact"><button className="bg-base text-white py-2  px-3 rounded-full ">Get In Touch</button></a>
         </div>
       </div>
     </div>

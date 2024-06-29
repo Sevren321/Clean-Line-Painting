@@ -2,36 +2,51 @@
 import React, { useState } from "react";
 
 export default function ContactForm() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-
-  const onSubmit = (e, FormEvent) => {
-    e.preventDefault();
-    console.log("Data", name, email, message);
-  };
+ 
+  
 
   return (
-    <form onSubmit={onSubmit}>
-      <input
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-        type="text"
-        placeholder="Name"
-      />
-
-      <input
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-        type="email"
-        placeholder="Email"
-      />
-
-      <textarea
-        value={message}
-        onChange={(e) => setMessage(e.target.value)}
-      ></textarea>
-      <button type="submit">Submit</button>
-    </form>
+    <div id='Contact' className="bg-white rounded-xl shadow-lg p-8">
+      <form action="" method="POST" className="flex flex-col">
+        <div className="">Send us a message!</div>
+      
+        <label for="First Name">First Name:</label>
+        <input
+          type="text"
+          placeholder="John"
+          required
+        />
+        <label for="Last Name">Last Name:</label>
+        <input
+          type="text"
+          placeholder="Doe"
+          required
+        />
+        <label for="Email">Email:</label>
+        <input
+          type="email"
+          placeholder="mail@email.com"
+          required
+        />
+        <label for="phone">Phone #:</label>
+        <input
+          type="tel"
+          placeholder="000-000-0000"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+        />
+      
+        <input
+          type="checkbox"
+        /> Interior
+        <input
+          type="checkbox"
+        /> Exterior
+        <label>Tell us about your project</label>
+        <textarea
+         placeholder='Message'
+        ></textarea>
+        <button className="bg-red-500" type="submit">Submit</button>
+      </form>
+    </div>
   );
 }

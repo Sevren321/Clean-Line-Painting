@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import Header from "../components/Header";
 
 import About from "../components/About";

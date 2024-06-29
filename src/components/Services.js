@@ -1,10 +1,13 @@
 import React from "react";
+import localFont from "next/font/local";
+
+const myFont = localFont({src: "../../public/Fonts/Cinzel_Decorative/CinzelDecorative-Bold.ttf"})
 
 export default function Services() {
   return (
-    <div className="bg-primary p-20">
-      <div className="flex justify-center text-3xl mb-16 font-bold text-white">
-        <u>Our Services</u>
+    <div id='Services' className="bg-primary p-20">
+      <div className="flex justify-center text-3xl mb-16 font-bold text-alt">
+        <u style={myFont.style}>Our Services</u>
       </div>
 
       <div className="grid grid-cols-2 justify-items-center gap-x-10">
