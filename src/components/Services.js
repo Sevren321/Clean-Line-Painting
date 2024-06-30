@@ -6,13 +6,13 @@ const myFont = localFont({src: "../../public/Fonts/Cinzel_Decorative/CinzelDecor
 export default function Services() {
   return (
     <div id='Services' className="bg-primary p-20">
-      <div className="flex justify-center text-3xl mb-16 font-bold text-alt">
+      <div className="flex justify-center text-center text-3xl mb-16 font-bold text-alt">
         <u style={myFont.style}>Our Services</u>
       </div>
 
-      <div className="grid grid-cols-2 justify-items-center gap-x-10">
+      <div className="sm:grid sm:grid-cols-2 justify-items-center gap-x-20">
         <div className="">
-          <div className="text-white border-b text-center text-xl font-bold mb-4">
+          <div className="text-white border-b-2 sm:text-xl max-w-64 mx-auto text-center text-lg sm:max-w-72 font-semibold mb-4 sm:text-nowrap	">
             Pressure Washing / Cleaning
           </div>
           <div className="text-white text-sm flex justify-center">
@@ -27,8 +27,8 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="">
-          <div className="text-white border-b text-xl text-center font-bold mb-4">
+        <div className="mt-20 sm:mt-0 ">
+          <div className="text-white border-b-2 sm:text-xl text-lg text-center font-semibold mb-4 max-w-60 mx-auto sm:text-nowrap ">
             Interior / Exterior Painting
           </div>
 
