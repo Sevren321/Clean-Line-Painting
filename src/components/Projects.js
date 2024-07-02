@@ -51,7 +51,7 @@ export default function Projects() {
 
   return (
     <div id='Projects' className="bg-secondary p-20">
-      <div className="text-3xl flex font-bold mb-16 justify-center text-alt">
+      <div className="text-3xl flex font-bold mb-16 justify-center text-alt xl:text-4xl">
         <u style={myFont.style}>Projects</u>
       </div>
 

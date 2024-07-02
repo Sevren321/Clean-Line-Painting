@@ -113,11 +113,11 @@ export default function FinalCarousel() {
         </div>
       </div>
       <div className="grid w-1/2 h-1/2 bg-text/75  rounded-lg col-start-1 col-end-1 row-start-1 row-end-1 z-10 p-3 ">
-        <div  className=" flex font-extrabold p-3 justify-center wrap text-center text-md text-2xl ">
+        <div  className=" flex font-extrabold p-3 justify-center wrap text-center text-md text-lg ">
           High-End Custom Home Finishing 
         </div>
         <div className="content-end justify-self-center">
-          <a href="#Contact"><button className="bg-base text-white py-2   px-3 rounded-full ">Get In Touch</button></a>
+          <a href="#Contact"><button className="bg-base text-white py-2 text-sm  px-3 rounded-full ">Get In Touch</button></a>
         </div>
       </div>
     </div>

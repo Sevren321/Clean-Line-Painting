@@ -5,7 +5,7 @@ export default function ContactForm() {
   return (
     <div
       id="Contact"
-      className="flex flex-col md:grid md:grid-cols-2 bg-base  text-xl  p-8 h-full"
+      className="md:grid md:grid-cols-2 bg-base  text-xl  p-8 h-full"
     >
       <div className="bg-text container shadow-lg rounded-xl  min-h-[500px] lg:max-w-[700px] ">
         <form action="" method="POST" className=" ">
@@ -83,15 +83,41 @@ export default function ContactForm() {
         </form>
       </div>
 
-      <div className="bg-text flex flex-col rounded-xl h-full w-full  min-h-[500px]">
-        <h3 className="font-extrabold text-4xl p-3 pl-5">
+      <div className=" flex flex-col text-text bg-slate-800 rounded-xl h-full w-full  min-h-[500px] mt-5">
+        <h3 className="font-extrabold  text-4xl p-3 pl-5">
           Contact Information
         </h3>
 
-        <div className="flex flex-col justify-center h-full items-center"> 
-          <p className="">1 &#x28;805&#x29; 406-9107</p>
-          <p className="">email@example.com</p>
-          <p className="">123 street, City, Country</p>
+        <div className="flex flex-col justify-center h-full  flex-grow  items-center  text-right">
+          
+          <div className="flex flex-col justify-start items-start gap-y-20 sm:text-2xl text-xl ">
+            <div className="flex ">
+              <div className="mr-10">
+                <i className="fa-solid fa-phone"></i>{" "}
+              </div>
+              <div className="">
+                <p className="">1 &#x28;805&#x29; 406-9107</p>
+              </div>
+            </div>
+            
+            
+            <div className="flex">
+              <div className="mr-10"><i className="fa-solid fa-envelope"></i></div>
+              <div className="">
+                <p className="">email@example.com</p>
+              </div>
+            </div>
+            
+            
+            <div className="flex flex-nowrap">
+              <div className="mr-10"><i className="fa-solid fa-location-dot "></i></div>
+              <div className="">
+                <p className="block">420 Jasmine Ave </p>
+              </div>
+          </div>
+
+
+          </div>
         </div>
       </div>
     </div>

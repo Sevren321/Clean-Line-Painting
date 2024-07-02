@@ -7,7 +7,7 @@ const myFont = localFont({src: "../../public/Fonts/Cinzel_Decorative/CinzelDecor
 export default function About() {
   return (
     <div id='About' className=" p-20 bg-base text-text">
-      <div className="flex text-alt justify-center mb-16 text-3xl font-bold">
+      <div className="flex text-alt justify-center mb-16 text-3xl font-bold xl:text-4xl">
         <u style={myFont.style}>Why Us</u>
       </div>
 
@@ -47,12 +47,12 @@ export default function About() {
           alt="logo"
         />
 
-        <div style={myFont.style} className="  text-center text-alt text-2xl items-center p-10 relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-alt after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-alt md:my-32 my-24 sm:text-3xl md:text-4xl lg:text-2xl lg:before:bg-base lg:after:bg-base xl:text-4xl  "  >
+        <div style={myFont.style} className="  text-center text-alt text-xl items-center p-10 relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-alt after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-alt md:my-32 my-14 sm:text-3xl md:text-4xl lg:text-2xl lg:before:bg-base lg:after:bg-base xl:text-4xl  "  >
           
             
               <span className="text-nowrap">Paint It Right</span>
               <br />
-              The First Time
+              <span className="text-nowrap">The First Time</span>
             
         </div>
 
