@@ -5,9 +5,9 @@ export default function ContactForm() {
   return (
     <div
       id="Contact"
-      className="md:grid md:grid-cols-2 bg-base  text-xl  p-8 h-full"
+      className="md:grid md:grid-cols-2 bg-base  text-xl p-8 h-full place-items-center"
     >
-      <div className="bg-text container shadow-lg rounded-xl  min-h-[500px] lg:max-w-[700px] ">
+      <div className="bg-text container  rounded-xl  min-h-[500px] lg:max-w-[700px] ">
         <form action="" method="POST" className=" ">
           <div className="text-4xl font-bold p-3 pl-5">Send us a message!</div>
 
@@ -83,14 +83,13 @@ export default function ContactForm() {
         </form>
       </div>
 
-      <div className=" flex flex-col text-text bg-slate-800 rounded-xl h-full w-full  min-h-[500px] mt-5">
+      <div className=" flex flex-col text-text bg-slate-800 rounded-xl h-full w-full  min-h-[300px] mt-5 md:mt-0">
         <h3 className="font-extrabold  text-4xl p-3 pl-5">
           Contact Information
         </h3>
 
-        <div className="flex flex-col justify-center h-full  flex-grow  items-center  text-right">
-          
-          <div className="flex flex-col justify-start items-start gap-y-20 sm:text-2xl text-xl ">
+        <div className="flex flex-col justify-center h-full  flex-grow  items-center  text-right ">
+          <div className="flex flex-col justify-start items-start gap-y-10 md:gap-y-32 sm:text-2xl md:mx-20 text-lg md:text-2xl ">
             <div className="flex ">
               <div className="mr-10">
                 <i className="fa-solid fa-phone"></i>{" "}
@@ -99,24 +98,24 @@ export default function ContactForm() {
                 <p className="">1 &#x28;805&#x29; 406-9107</p>
               </div>
             </div>
-            
-            
+
             <div className="flex">
-              <div className="mr-10"><i className="fa-solid fa-envelope"></i></div>
+              <div className="mr-10">
+                <i className="fa-solid fa-envelope"></i>
+              </div>
               <div className="">
-                <p className="">email@example.com</p>
+                <p className="">sr2012evo@gmail.com</p>
               </div>
             </div>
-            
-            
+
             <div className="flex flex-nowrap">
-              <div className="mr-10"><i className="fa-solid fa-location-dot "></i></div>
-              <div className="">
-                <p className="block">420 Jasmine Ave </p>
+              <div className="mr-10">
+                <i className="fa-solid fa-location-dot "></i>
               </div>
-          </div>
-
-
+              <div className="text-left">
+                <p className=" flex flex-wrap">420 Jasmine Ave Monrovia, California </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

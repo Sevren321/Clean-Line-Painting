@@ -112,12 +112,14 @@ export default function FinalCarousel() {
           />
         </div>
       </div>
-      <div className="grid w-1/2 h-1/2 bg-text/75  rounded-lg col-start-1 col-end-1 row-start-1 row-end-1 z-10 p-3 ">
-        <div  className=" flex font-extrabold p-3 justify-center wrap text-center text-md text-lg ">
-          High-End Custom Home Finishing 
+      <div className="grid w-1/2 h-1/2 items-center bg-text/75  rounded-lg col-start-1 col-end-1 row-start-1 row-end-1 z-10 p-3 max-w-[500px]">
+        <div  className=" font-extrabold p-3 justify-center wrap  text-center text-md text-lg sm:text-3xl ">
+          <p>High-End Custom Home Finishing <span className="hidden sm:block mt-5">A Family Company </span><span className="hidden md:block mt-5">35 + Years Of Experience</span></p>
+          
+          
         </div>
         <div className="content-end justify-self-center">
-          <a href="#Contact"><button className="bg-base text-white py-2 text-sm  px-3 rounded-full ">Get In Touch</button></a>
+          <a href="#Contact"><button className="bg-base text-white py-2 hover:bg-base/75 duration-200 text-sm sm:text-lg  px-3 rounded-full ">Get In Touch</button></a>
         </div>
       </div>
     </div>
